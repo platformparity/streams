@@ -1,11 +1,18 @@
 {
-  "private": true,
+  "name": "@platformparity/streams",
+  "version": "1.0.0-wip",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "directories": {
+    "lib": "lib"
+  },
   "description": "Reference implementation and tests for the WHATWG Streams Standard",
   "scripts": {
-    "test": "npm run lint && npm run wpt",
+    "test": "npm run wpt",
     "wpt": "node --expose_gc run-web-platform-tests.js",
     "sync-wpt": "git submodule update --init",
-    "lint": "eslint \"**/*.js\"",
     "coverage": "nyc --reporter=lcov npm test && opener coverage/lcov-report/index.html"
   },
   "author": "Domenic Denicola <d@domenic.me> (https://domenic.me/)",
@@ -13,7 +20,6 @@
   "devDependencies": {
     "better-assert": "^1.0.2",
     "debug": "^3.1.0",
-    "eslint": "^3.2.2",
     "minimatch": "^3.0.4",
     "nyc": "^11.2.1",
     "opener": "^1.4.2",
@@ -23,5 +29,14 @@
     "include": [
       "**/lib/**/*.js"
     ]
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/platformparity/streams.git"
+  },
+  "bugs": {
+    "url": "https://github.com/platformparity/streams/issues"
+  },
+  "homepage": "https://github.com/platformparity/streams#readme"
 }
