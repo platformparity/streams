@@ -1,6 +1,6 @@
 {
   "name": "@platformparity/streams",
-  "version": "1.0.0-wip.1",
+  "version": "1.0.0-wip.2",
   "description": "Reference implementation and tests for the WHATWG Streams Standard",
   "main": "index.js",
   "files": [
