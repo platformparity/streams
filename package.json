@@ -1,6 +1,7 @@
 {
   "name": "@platformparity/streams",
   "version": "1.0.0-wip",
+  "description": "Reference implementation and tests for the WHATWG Streams Standard",
   "main": "index.js",
   "publishConfig": {
     "access": "public"
@@ -8,7 +9,6 @@
   "directories": {
     "lib": "lib"
   },
-  "description": "Reference implementation and tests for the WHATWG Streams Standard",
   "scripts": {
     "test": "npm run wpt",
     "wpt": "node --expose_gc run-web-platform-tests.js",

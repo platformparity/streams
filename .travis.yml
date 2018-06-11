@@ -1,5 +1,13 @@
 language: node_js
 node_js: node
+deploy:
+  provider: npm
+  email: mail@qwtel.com
+  api_key:
+    secure: jhGX8A4ts/HVx7cHCk6MuvJCO5ALZPh49fYyrpW5pkw3neUBnobQ/IIydTjQaR23n74d3NgnPDgJ+iBizscS7yApWDj6ZwutQ1KXiUA5JopXJeAtxP99fYwldRAtiDtPQeO62CWBc8ODVCBWq7pBI6JI4TKttZPAfm1zT44CkYEkNWUHpNJhdikpEYhYt1B+o0kIcBtF+tglT3/u5blFc7Cra/yPBoQoD6ZE2yPogUJSTlFNYF/NxSmKWqk5i2PVB5aFHxInO0bfGBCiLw9Ye7UGAzf6Y4FhWjaX7oFbtzcN83VmUx8UiGWKPKPKRVjOEAj+ZQfCnNThBsGGWzLQ/gV9SlRaHr5qLlkyWUTgOhrWwYi8WQ12wRaMrZulwssHBky3AumpIxfgER+T0SYZye1BBz9xvq8KCDWLLzfpPrgxLJjS9nI8yL/mVt9JrgOh6u6e3GAnNNothEwN25CgodwH3wu+wNf+fhvFf28e/vHf403MSZbyTWtxztdRw2mmpHnm1DU4eyr+kwEsZc9Ek8B0M9qLSoFYapDnso+fM6vT5ILCi653La578T2sqjpwAIMkC1++j/zEFwFHXyO9/nQfoLdNl0bzIs6Znv4k1Dxn0/BtXb3QCo90tsZnUqKYLIxm1hF+vkz4SrPPgm+thvR3Icy3N9wNupoUtpwslg0=
+  on:
+    tags: true
+    repo: platformparity/streams
 notifications:
   email:
     on_success: never
