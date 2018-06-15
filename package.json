@@ -22,6 +22,7 @@
   "author": "Domenic Denicola <d@domenic.me> (https://domenic.me/)",
   "license": "(CC0-1.0 OR MIT)",
   "devDependencies": {
+    "debug": "^3.1.0",
     "minimatch": "^3.0.4",
     "nyc": "^11.2.1",
     "opener": "^1.4.2",
@@ -33,8 +34,7 @@
     ]
   },
   "dependencies": {
-    "better-assert": "^1.0.2",
-    "debug": "^3.1.0"
+    "better-assert": "^1.0.2"
   },
   "repository": {
     "type": "git",
