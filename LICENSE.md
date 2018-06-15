@@ -1,18 +1,20 @@
-# WHATWG Streams Reference Implementation Licensing
+# LICENSE
 
-For the reference implementation and tests for the WHATWG Streams Standard.
+# MIT License
 
-This code is dual-licensed under CC0 and the MIT license. You can choose which one you want to use.
+Copyright (c) 2018 Florian Klampfer <https://qwtel.com/>
 
-## CC0
+This software also uses portions of the
+`whatwg/streams`
+project, which is MIT licensed with the following copyright:
 
-To the extent possible under law, the authors have dedicated all copyright and related and neighboring rights to this software to the public domain worldwide. This software is distributed without any warranty.
+> Copyright (c) 2013–2015 Streams Standard Reference Implementation Authors
 
-You should have received a copy of the CC0 Public Domain Dedication along with this software. If not, see https://creativecommons.org/publicdomain/zero/1.0/.
+This software also uses portions of the
+`xuset/readable-stream-node-to-web`
+project, which is MIT licensed with the following copyright:
 
-## MIT
-
-Copyright (c) 2013–2015 Streams Standard Reference Implementation Authors
+> Copyright (c) 2016 Austin Middleton
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
