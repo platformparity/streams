@@ -78,7 +78,7 @@ class UnderlyingNodeSink {
   }
 
   start(/*controller*/) {
-    // anything to do here?
+    // TODO: anything to do here?
   }
 
   write(chunk) {
@@ -111,11 +111,11 @@ function writableStreamFromNode(nodeStream) {
 }
 
 module.exports = {
-	ReadableStream,
-	WritableStream,
-	TransformStream,
-	ByteLengthQueuingStrategy,
-	CountQueuingStrategy,
-	readableStreamFromNode,
-	writableStreamFromNode,
+  ReadableStream,
+  WritableStream,
+  TransformStream,
+  ByteLengthQueuingStrategy,
+  CountQueuingStrategy,
+  readableStreamFromNode,
+  writableStreamFromNode,
 };
